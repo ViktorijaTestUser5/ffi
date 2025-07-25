@@ -8,7 +8,7 @@ jobs:
       file: "$FILE_NAME"
       skip_cleanup: true
       # dpl_version: 1.10.16
-      dpl_version: 2.0.0.beta.2
+      dpl_version: 2.0.3.beta.4
       on:
         tags: true
   - dist: bionic
@@ -19,7 +19,7 @@ jobs:
       token: "$GITHUB_APIKEY"
       file: "$FILE_NAME"
       skip_cleanup: true
-      dpl_version: 2.0.0.beta.2
+      dpl_version: 2.0.3.beta.4
       on:
         tags: true
 os: linux
